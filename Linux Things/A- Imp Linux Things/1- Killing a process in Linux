@@ -1,0 +1,19 @@
+Reference Article:-    https://esc.sh/blog/what-to-do-when-your-computer-running-ubuntu-freezes/
+
+
+When Linux(Ubuntu) freezes due to any APP or any other reason, then you can open 
+
+Terminal by using the shortcut:-    ctrl+At+T
+
+
+Then in the terminal type:-
+
+                            pgrep application_name_which_has_frozen_linux
+
+eg:-  pgrep unity
+
+Then make a note of process id and kill the process by typing:-
+
+                            kill process_id
+                            
+eg:- kill 7215
