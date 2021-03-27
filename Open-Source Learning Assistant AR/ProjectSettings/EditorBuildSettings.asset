@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/0- Home Scene.unity
+    guid: 2108b59ea095c7f4aa0a17c7032e17f4
+  - enabled: 1
     path: Assets/Scenes/1- Terminal Learning.unity
     guid: 39341b6733717e141b5d66d44610db8c
   m_configObjects:
