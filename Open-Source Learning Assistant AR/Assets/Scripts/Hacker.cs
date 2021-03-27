@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
+//original script developed for Terminal Solver Game
+//This script is controlling the complete Game's behaviour 
+
 public class Hacker : MonoBehaviour
 {
     //Game Configuratuon data
