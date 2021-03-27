@@ -155,6 +155,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[0].Play();
 
             LinuxVideoPlayer[0].SetActive(true);
+            input="";
         }
 
         else if (input == "cat less")
@@ -165,6 +166,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[1].Play();
 
             LinuxVideoPlayer[1].SetActive(true);
+            input="";
         }
 
         else if (input == "alias")
@@ -175,6 +177,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[2].Play();
 
             LinuxVideoPlayer[2].SetActive(true);
+            input="";
         }
 
         else if (input == "echo")
@@ -185,6 +188,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[3].Play();
 
             LinuxVideoPlayer[3].SetActive(true);
+            input="";
         }
 
         else if (input == "ls")
@@ -195,6 +199,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[4].Play();
 
             LinuxVideoPlayer[4].SetActive(true);
+            input="";
         }
 
         else if (input == "cd")
@@ -205,6 +210,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[5].Play();
 
             LinuxVideoPlayer[5].SetActive(true);
+            input="";
         }
 
         else if (input == "mkdir")
@@ -215,6 +221,7 @@ public class LinuxVideoController : MonoBehaviour
                 linuxVideos[6].Play();
 
             LinuxVideoPlayer[6].SetActive(true);
+            input="";
         }      
       
        
