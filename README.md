@@ -1,6 +1,13 @@
 # BitBox_Project_2021
 This repository contains the source code and other important things related to BitBox 2021 Hackathon 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                          Open-Source Learning Assistant AR
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 --->  About the Project:-  https://docs.google.com/presentation/d/1nR0aiY2nreH1-ekMVEQaXDwy7zc59d0FaTAgxPFOmcc/edit?usp=sharing
 
 
