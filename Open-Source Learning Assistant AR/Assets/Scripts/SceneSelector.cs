@@ -33,4 +33,9 @@ public class SceneSelector : MonoBehaviour
 
     }
 
+    public void GoToWebView()
+    {
+        SceneManager.LoadScene(2); 
+    }
+
 }
