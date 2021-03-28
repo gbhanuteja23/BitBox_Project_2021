@@ -70,10 +70,10 @@ The Project aims at teaching the basic linux commands is most fun way possible m
 
 # Screenshots    
 
-<img src="Assets/1.jpeg"/>      
+<img src="https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/Videos%20and%20Pictures/New%20folder/1.png"/>      
 <hr/>
-<img src="Assets/2.png"/>    
+<img src="https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/Videos%20and%20Pictures/Project%20Pictures-1.png"/>    
  <hr/>
-<img src="Assets/3.png"/>  
+<img src="https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/Videos%20and%20Pictures/New%20folder/2.png"/>  
  <hr/>
-<img src="Assets/4.png"/> 
+<img src="https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/Videos%20and%20Pictures/New%20folder/5.png"/> 
