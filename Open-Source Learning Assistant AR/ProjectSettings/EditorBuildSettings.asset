@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1- Terminal Learning.unity
     guid: 39341b6733717e141b5d66d44610db8c
+  - enabled: 1
+    path: Assets/Scenes/2- WebView.unity
+    guid: a595a62166055e945a7dbf0063a9739b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7b0cf2a9189421f4db2ab1f306bd4045,
       type: 2}
