@@ -20,9 +20,9 @@ The main project is in the folder " Open-Source Learning Assistant AR ":-   http
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
----> Download the final APK of Open-Source Learning Assistant (v1.8) from:-
+---> Download the final APK of Open-Source Learning Assistant (v2.0.4) from:-
 
-https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/APKs/1-%20Final%20Build%20APK/Open-Source%20Learning%20Assistant%20AR%20v1.8%20Final%20Build.apk
+https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/APKs/1-%20Final%20Build%20APK/Open-Source%20Learning%20Assistant%20AR%20v2.0.4%20Final%20Build.apk
 
 
 
