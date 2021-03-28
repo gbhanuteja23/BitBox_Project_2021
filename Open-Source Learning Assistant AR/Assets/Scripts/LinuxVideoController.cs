@@ -63,10 +63,10 @@ public class LinuxVideoController : MonoBehaviour
     }
 
 
-    ///Code from line 71 to 155 is only when testing the APP inside Unity
+    ///Code from line 73 to 161 is only when testing the APP inside Unity
     ///or for building it for Windows
 
-    ///Code from line 161 to 293 is only when building this APP for Android
+    ///Code from line 163 to 331 is only when building this APP for Android
 
     /*
 
