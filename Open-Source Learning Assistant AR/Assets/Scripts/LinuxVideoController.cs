@@ -20,12 +20,27 @@ public class LinuxVideoController : MonoBehaviour
     [Space]
     public Text inputField;
 
-    private TouchScreenKeyboard keyboard; 
+    private TouchScreenKeyboard keyboard;
+
+    [Space]
+    [Header("Audoclips")]
+    public AudioClip[] linuxCommandAudios;
+
+    [SerializeField]
+    private AudioSource audioToPlay;
+
+    SceneSelector sceneLoaderObj;
+
+    int audioPlaycount = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        linuxController = GetComponent<LinuxTerminalController>(); 
+        linuxController = GetComponent<LinuxTerminalController>();
+
+        audioToPlay = GetComponent<AudioSource>();
+
+        sceneLoaderObj = GetComponent<SceneSelector>(); 
 
     }
 
@@ -48,11 +63,11 @@ public class LinuxVideoController : MonoBehaviour
     }
 
 
-    ///Code from line 60 to 140 is only when testing the APP inside Unity
+    ///Code from line 71 to 155 is only when testing the APP inside Unity
     ///or for building it for Windows
 
-    ///Code from line 146 to 220 is only when building this APP for Android
-    
+    ///Code from line 161 to 293 is only when building this APP for Android
+
     /*
 
     //This function gets called when user inputs anything on Terminal
@@ -140,84 +155,177 @@ public class LinuxVideoController : MonoBehaviour
         }
 
         */
-    
+
 
 
     //Function doing the same task that is done above but for ANDROID
-    
+
     public void CheckUserInput()
-    {
+    {        
+
         if (input == "cat")
-        {
+        {           
+
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[0].isPlaying)
                 linuxVideos[0].Play();
 
+
             LinuxVideoPlayer[0].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[0];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1; 
+            }
+
+            
+            input = "";
         }
 
         else if (input == "cat less")
-        {
+        {           
+
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[1].isPlaying)
                 linuxVideos[1].Play();
 
             LinuxVideoPlayer[1].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[1];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
         }
 
         else if (input == "alias")
-        {
+        {           
+
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[2].isPlaying)
                 linuxVideos[2].Play();
 
             LinuxVideoPlayer[2].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[2];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
         }
 
         else if (input == "echo")
         {
+            
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[3].isPlaying)
                 linuxVideos[3].Play();
 
             LinuxVideoPlayer[3].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[3];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
         }
 
         else if (input == "ls")
         {
+            
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[4].isPlaying)
                 linuxVideos[4].Play();
 
             LinuxVideoPlayer[4].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[4];
+
+            if(!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
         }
 
         else if (input == "cd")
         {
+            
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[5].isPlaying)
                 linuxVideos[5].Play();
 
             LinuxVideoPlayer[5].SetActive(true);
+
+            audioToPlay.clip = linuxCommandAudios[5];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
         }
 
         else if (input == "mkdir")
         {
+            
             Terminalscreen.SetActive(false);
 
             if (!linuxVideos[6].isPlaying)
                 linuxVideos[6].Play();
 
             LinuxVideoPlayer[6].SetActive(true);
-        }      
-      
-       
+
+            audioToPlay.clip = linuxCommandAudios[6];
+
+            if (!audioToPlay.isPlaying)
+            {
+                audioToPlay.Play();
+
+                audioPlaycount += 1;
+            }
+
+            input = "";
+        }
+
+        else if (input == "back" || input == "exit" || input == "clear")
+        {
+            GoBackToTerminal();
+
+            audioPlaycount = 0;
+
+        }
 
 
     }
