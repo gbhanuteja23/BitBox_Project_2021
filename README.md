@@ -3,7 +3,7 @@ This repository contains the source code and other important things related to B
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                                          Open-Source Learning Assistant AR
+                                                 Open-Source Learning Assistant AR
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -19,9 +19,26 @@ The main project is in the folder " Open-Source Learning Assistant AR ":-   http
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 ---> Download the final APK of Open-Source Learning Assistant (v1.8) from:-
 
 https://github.com/gbhanuteja23/BitBox_Project_2021/blob/main/APKs/1-%20Final%20Build%20APK/Open-Source%20Learning%20Assistant%20AR%20v1.8%20Final%20Build.apk
+
+
+
+Instructions for using the APP (for Android):-
+
+For entering the commands that you want from the commands that are shown in the console window, you have to click on the text box(which says Enter Text ) on top of the monitor then an On-Screen keyboard will on using which you can type the command and then presss ok once you have typed it so that keyboard doesn't get overlayed on top of video
+window. 
+
+As soon as you enter that a video showing how that command works is shown in AR, if you want to go back to the console window, 
+type exit or back in the above text box and then click on back button which is at right side of the video window.  
+
+
+For building this project for Windows or testing it inside Unity Engine:-
+
+You have to make changes to the code that has been described on line 51 of Linux Video Controller Script (LinuxVideoControllerScript.cs) then only it will work
+correctly inside Unity.  
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
